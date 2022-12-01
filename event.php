@@ -50,10 +50,10 @@
        
        
     </section>
-    <button id="Button1" onclick="window.location.href = 'registration.html'">
+    <button id="Button1" onclick="window.location.href = 'registration.php'">
         Click Here to Sign Up for An Event
     </button>
-    <button id="Home" onclick="window.location.href = 'PagePrincipale.html'">
+    <button id="Home" onclick="window.location.href = 'PagePrincipale.php'">
         Home
     </button>
 
