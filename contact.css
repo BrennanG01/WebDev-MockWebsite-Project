@@ -1,0 +1,51 @@
+heading 
+{
+  font-style: italic;
+  font: "Snell Roundhand", fantasy;
+  font-size: 40px;
+  color: black;
+  padding-top: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: double;
+}
+#paragraphe
+{
+   
+   margin-top: 100px;
+   font-style: oblique;
+   font-size: 20px;
+   color: darkgreen;
+
+}
+
+#Boutton1
+{
+
+
+ background-color: #eff0ee;
+  border: none;
+  color: black;
+  width: 200px;
+  margin-top: 90px;
+  margin-left: 550px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px ;
+}
+
+html, body
+{
+  background-image: linear-gradient(lightblue, lightgreen);
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+ul
+{
+  list-style-type: disc;
+  list-style-position: inside;
+}

@@ -1,0 +1,57 @@
+heading 
+{
+  font-style: italic;
+  font: "Snell Roundhand", fantasy;
+  font-size: 40px;
+  color: black;
+  padding-top: 300px;
+  margin-left: 175px;
+  text-align: center;
+  border-style: double;
+  border-color: black;
+}
+#paragraphegauche
+{
+   
+   margin-top: 150px;
+   margin-left: 100px;
+   margin-right: 950px;
+   font-style: oblique;
+   font-size: 20px;
+   color: darkgreen;
+
+}
+body 
+{ 
+ 
+  background-image: url("pngegg.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+#Boutton1
+{
+
+
+  background-color: #eff0ee;
+  border: none;
+  color: black;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 550px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px ;
+}
+
+html
+{
+  background-image: linear-gradient(lightblue, lightgreen);
+  
+  background-repeat: no-repeat;
+}

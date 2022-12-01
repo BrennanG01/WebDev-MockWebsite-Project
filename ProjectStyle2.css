@@ -1,0 +1,104 @@
+#title2{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 60px;
+}
+
+.buttons{
+  background-color: #eff0ee;
+  border: none;
+  color: black;
+  width: 200px;
+  padding:10px ;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px ;
+}
+
+.buttons:hover{
+background-color: #d6d2d2f6;
+
+}
+
+#homeb{
+
+    position: fixed;
+    left: 58%;
+    top : 40%;
+}
+
+#eventb{
+    position: fixed;
+    left: 70%;
+    top: 40%;
+}
+
+#joinb{
+    position: fixed;
+    left: 58%;
+    top : 50%;
+}
+
+#contactb{
+    position: fixed;
+    left: 70%;
+    top: 50%;
+}
+
+.description{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    left: 25%;
+    top: 32%;
+
+}
+
+html,body{
+ background-image: linear-gradient(lightblue, lightgreen);
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 100vh;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+}
+
+
+#human1{
+    position: fixed;
+    width: 150px;
+    height: auto;
+    left: 25%;
+    top: 10%;
+   
+}
+
+#human2{
+    position: fixed;
+    width: 150px;
+    height: auto;
+    left: 25%;
+    top: 68%; 
+}
+
+#animal1{
+    position: fixed;
+    width: 150px;
+    height: auto;
+    left: 65%;
+    top: 10%;
+}
+
+#animal2{
+    position: fixed;
+    width: 200px;
+    height: auto;
+    left: 65%;
+    top: 65%;
+
+}

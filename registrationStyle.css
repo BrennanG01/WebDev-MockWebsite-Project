@@ -1,0 +1,115 @@
+h1
+{
+  font-style: italic;
+  font: "Snell Roundhand", fantasy;
+  font-size: 40px;
+  color: black;
+  /* padding-top: 300px; */
+  text-align: center;
+  border-color: black;
+  border-style: dotted;
+}
+
+#paragraph {
+   margin-top: 40px;
+   margin-bottom: 40px;
+   font-style: oblique;
+   font-size: 20px;
+   color: darkgreen;
+}
+
+body {
+  background-image: url("pngegg.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+#Button1, button {
+  background-color: #eff0ee;
+  border: none;
+  color: black;
+  /* width: 200px; */
+  margin-top: 90px;
+  margin-left: 550px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px ;
+}
+
+button:hover, #Button1:hover {
+  background-color: lightgray;
+}
+
+html {
+  background-color: lightgreen;
+  background-image: linear-gradient(lightblue, lightgreen);
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 500px;
+  background-color: lightblue;
+}
+
+table, td,th {
+  border: thin solid black;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+label {
+  font-size: 1.25em;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 70%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  /*outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
