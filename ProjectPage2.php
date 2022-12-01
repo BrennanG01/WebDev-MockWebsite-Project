@@ -32,10 +32,10 @@
         </div>
 
         
-        <button class = "buttons" id = "homeb" onclick="window.location.href = 'PagePrincipale.html'"> Home </button>
-        <button class = "buttons" id = "eventb" onclick="window.location.href = 'event.html'">Event Info</button>
-        <button class = "buttons" id = "joinb" onclick="window.location.href = 'registration.html'">Join Now!</button>
-        <button class = "buttons" id = "contactb" onclick="window.location.href = 'contact.html'">Contact</button>
+        <button class = "buttons" id = "homeb" onclick="window.location.href = 'PagePrincipale.php'"> Home </button>
+        <button class = "buttons" id = "eventb" onclick="window.location.href = 'event.php'">Event Info</button>
+        <button class = "buttons" id = "joinb" onclick="window.location.href = 'registration.php'">Join Now!</button>
+        <button class = "buttons" id = "contactb" onclick="window.location.href = 'contact.php'">Contact</button>
    
         
 	</body>
