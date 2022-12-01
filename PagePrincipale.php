@@ -13,7 +13,7 @@
         <p id="paragraphegauche"> 
         	You will find on this site all the necessary information to participate and attend this event.
         </p>
-        <button id="Boutton1" onclick="window.location.href = 'ProjectPage2.html'">
+        <button id="Boutton1" onclick="window.location.href = 'ProjectPage2.php'">
         	Click Here to access the information page 
         </button>
         
